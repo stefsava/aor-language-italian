@@ -9,10 +9,19 @@ module.exports = {
             edit: 'Modifica',
             cancel: 'Annulla',
             refresh: 'Aggiorna',
-            add_filter: 'Aggiuni un filtro',
-            delete_item: 'Elimina %{name}',
-            create_item: 'Crea %{name}',
-            list_item: 'Elenco di %{name}',
+            add_filter: 'Aggiungi un filtro',
+            remove_filter: 'Rimuovi questo filtro',
+        },
+        boolean: {
+            true: 'Si',
+            false: 'No',
+        },
+        page: {
+            list: 'Lista di %{name}',
+            edit: '%{name} #%{id}',
+            show: '%{name} #%{id}',
+            create: 'Aggiungi %{name}',
+            delete: 'Elimina %{name} #%{id}',
         },
         input: {
             image: {
