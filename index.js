@@ -22,6 +22,7 @@ module.exports = {
             show: '%{name} #%{id}',
             create: 'Aggiungi %{name}',
             delete: 'Elimina %{name} #%{id}',
+            dashboard: 'Cruscotto',
         },
         input: {
             image: {
@@ -55,6 +56,7 @@ module.exports = {
             created: 'Record creato',
             deleted: 'Record eliminato',
             item_doesnt_exist: 'Record inesistente',
+            http_error: 'Errore di comunicazione con il server',
         },
         validation: {
             required: 'Campo obbligatorio',
