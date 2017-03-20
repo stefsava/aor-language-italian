@@ -56,10 +56,16 @@ module.exports = {
             created: 'Record creato',
             deleted: 'Record eliminato',
             item_doesnt_exist: 'Record inesistente',
-            http_error: 'Errore di comunicazione con il server',
+            http_error: 'Errore di comunicazione con il server dati',
         },
         validation: {
             required: 'Campo obbligatorio',
+            minLength: 'Deve essere lungo %{min} caratteri almeno',
+            maxLength: 'Deve essere lungo %{max} caratteri al massimo',
+            minValue: 'Deve essere almeno %{min}',
+            maxValue: 'Deve essere al massimo %{max}',
+            number: 'Deve essere un numero',
+            email: 'Deve essere un valido indirizzo email',
         },
     },
 };
