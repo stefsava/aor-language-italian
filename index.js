@@ -1,4 +1,4 @@
-module.exports = {
+    module.exports = {
     aor: {
         action: {
             delete: 'Cancella',
@@ -45,6 +45,7 @@ module.exports = {
             prev: 'Precedente',
         },
         auth: {
+            no_results: 'Nessun risultato trovato',
             username: 'Nome utente',
             password: 'Password',
             sign_in: 'Login',
