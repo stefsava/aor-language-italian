@@ -37,6 +37,7 @@
             about: 'Informazioni',
         },
         navigation: {
+            no_results: 'Nessun risultato trovato',
             page_out_of_boundaries: 'Il numero di pagina %{page} è fuori dei limiti',
             page_out_from_end: 'Fine della paginazione',
             page_out_from_begin: 'Il numero di pagina deve essere maggiore di 1',
@@ -45,7 +46,6 @@
             prev: 'Precedente',
         },
         auth: {
-            no_results: 'Nessun risultato trovato',
             username: 'Nome utente',
             password: 'Password',
             sign_in: 'Login',
