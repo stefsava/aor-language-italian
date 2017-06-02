@@ -17,11 +17,11 @@
             false: 'No',
         },
         page: {
-            list: 'Lista di %{name}',
-            edit: '%{name} #%{id}',
-            show: '%{name} #%{id}',
+            list: 'Lista %{name}',
+            edit: '%{name} %{id}',
+            show: '%{name} %{id}',
             create: 'Aggiungi %{name}',
-            delete: 'Elimina %{name} #%{id}',
+            delete: 'Elimina %{name} %{id}',
             dashboard: 'Cruscotto',
         },
         input: {

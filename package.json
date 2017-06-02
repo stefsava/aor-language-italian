@@ -1,6 +1,6 @@
 {
   "name": "aor-language-italian",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Italian translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
