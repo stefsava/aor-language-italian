@@ -1,4 +1,4 @@
-    module.exports = {
+module.exports = {
     aor: {
         action: {
             delete: 'Cancella',
@@ -11,6 +11,7 @@
             refresh: 'Aggiorna',
             add_filter: 'Aggiungi un filtro',
             remove_filter: 'Rimuovi questo filtro',
+            back: 'Indietro',
         },
         boolean: {
             true: 'Si',
@@ -23,11 +24,19 @@
             create: 'Aggiungi %{name}',
             delete: 'Elimina %{name} %{id}',
             dashboard: 'Cruscotto',
+            not_found: 'Non trovato',
         },
         input: {
+            file: {
+                upload_several:
+                    'Trascina i files da caricare, oppure clicca per selezionare.',
+                upload_single: 'Trascina il file da caricare, oppure clicca per selezionarla.',
+            },
             image: {
-                upload_several: 'Trascina i files da caricare, oppure clicca per selezionare.',
-                upload_single: 'Trascina il file da caricare, oppure clicca per selezionare.',
+                upload_several:
+                    'Trascina le immagini da caricare, oppure clicca per selezionarle.',
+                upload_single:
+                    'Trascina l\'immagine da caricare, oppure clicca per selezionarla.',
             },
         },
         message: {
@@ -35,6 +44,8 @@
             no: 'No',
             are_you_sure: 'Sei sicuro ?',
             about: 'Informazioni',
+            not_found:
+                'Hai inserito un URL errato, oppure hai cliccato un link errato',
         },
         navigation: {
             no_results: 'Nessun risultato trovato',
