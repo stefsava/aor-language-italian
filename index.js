@@ -49,6 +49,8 @@ module.exports = {
         },
         navigation: {
             no_results: 'Nessun risultato trovato',
+            no_more_results:
+                'La pagina numero %{page} è fuori dell\'intervallo. Prova la pagina precedente.',
             page_out_of_boundaries: 'Il numero di pagina %{page} è fuori dei limiti',
             page_out_from_end: 'Fine della paginazione',
             page_out_from_begin: 'Il numero di pagina deve essere maggiore di 1',
@@ -69,6 +71,7 @@ module.exports = {
             deleted: 'Record eliminato',
             item_doesnt_exist: 'Record inesistente',
             http_error: 'Errore di comunicazione con il server dati',
+            bad_item: 'Record errato',
         },
         validation: {
             required: 'Campo obbligatorio',
