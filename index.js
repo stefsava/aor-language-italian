@@ -30,7 +30,7 @@ module.exports = {
             file: {
                 upload_several:
                     'Trascina i files da caricare, oppure clicca per selezionare.',
-                upload_single: 'Trascina il file da caricare, oppure clicca per selezionarla.',
+                upload_single: 'Trascina il file da caricare, oppure clicca per selezionarlo.',
             },
             image: {
                 upload_several:
