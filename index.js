@@ -27,6 +27,9 @@ module.exports = {
             not_found: 'Non trovato',
         },
         input: {
+            autocomplete: {
+                none: 'Nessun valore selezionato',
+            },
             file: {
                 upload_several:
                     'Trascina i files da caricare, oppure clicca per selezionare.',
@@ -37,6 +40,13 @@ module.exports = {
                     'Trascina le immagini da caricare, oppure clicca per selezionarle.',
                 upload_single:
                     'Trascina l\'immagine da caricare, oppure clicca per selezionarla.',
+            },
+            references: {
+                all_missing: 'Riferimenti non trovati.',
+                many_missing:
+                    'Uno o più riferimenti non trovati.',
+                single_missing:
+                    'I riferimenti associati non sono più disponibili',
             },
         },
         message: {
